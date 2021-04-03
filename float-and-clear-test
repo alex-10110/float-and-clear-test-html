@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float and Clear Test</title>
+    <style>
 
+
+        .green-box{
+
+            height: 700px;
+            width: 500px;
+            background: green;
+        }
+
+        .yellow-box{
+            height:700px;
+            width: 500px;
+            background: yellow;
+            opacity: 0.5;
+
+            float:left;
+
+        }
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+<h1>Float and clear test with html5</h1>
+<h1>Clear boxes with HTML5 code</h1>
+
+<div>
+    <p>
+        Text Example clear boxes
+
+    </p>
+
+
+</div>
+<h1>This box is green</h1>
+
+<div class="green">
+    <div class="green-box"></div>
+
+
+
+</div>
+
+<div class="yellow">
+    <div class="yellow-box">
+        <p>This box is yellow</p>
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
